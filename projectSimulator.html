@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>3D Spaceship Controller</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">Home</a>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">3D Spaceship Controller</h1>
+							<div class="col-4"><span class="image left"><img src="images/controllerThumbnail.PNG" alt="" /></span></div>
+                            
+                            <h3>Description:</h3>			
+							<p>A college group project that uses C++ and OpenFrameworks to create a 3D environment where the user can 
+								control a spaceship. The environment has cameras set around multiple places to view the spaceship through 
+								various angles. Using a simple raytracing algorithm, the spaceship can intersect with the terrain allowing it
+								to land on it. Considering the terrain's large amount of vertices, we used an acceleration structure(Octree) to
+								speed up the raytracing process and smooth out the intersections.</p>
+                                
+                            <h3>Achievements:</h3>
+                            <ul class="alt">
+                                <li>Designed a simple particle system and raytracing algorithm</li>
+                                <li>Implemented the octree acceleration structure</li>
+                                <li>Designed and modeled the 3D meshes(spaceship and terrain)</li>
+                            </ul>
+							<h3>Key Components:</h3>
+                                <ul>
+                                    <li>C++</li>
+									<li>Particle Systems</li>
+									<li>3D Movement Controls</li>
+                                    <li>Octree Acceleration Structure</li>
+                                    <li>Blender</li>
+									<li>OpenFrameworks</li>
+                                </ul>
+							<h2>Images</h2>
+							<div class="row gtr-uniform">
+								<div class="col-4"><span class="image fit"><img src="images/controller.PNG" alt="" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/controllerSpaceship.PNG" alt="" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/controllerOctree.PNG" alt="" /></span></div>
+							</div>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; All rights reserved.</li><li>Design: HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
